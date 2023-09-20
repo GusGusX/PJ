@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityPage1">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-129dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="35dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/alatsi"
+                    android:text="Goalkeeper"
+                    android:textColor="#000000"
+                    android:textSize="70sp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/gk" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Altay Bayindir"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/gk1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Tom Heaton"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number1"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 22"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/gk2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Radek Vítek"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number2"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 40"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/gk3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="André Onana"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number3"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 24"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="35dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/alatsi"
+                    android:text="Defenders"
+                    android:textColor="#000000"
+                    android:textSize="70sp" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Victor Lindelöf"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number4"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Harry Maguire"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number5"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 5"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Lisandro Martínez"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number6"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 6"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Tyrell Malacia"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number7"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 12"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Raphaël Varane"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number8"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 19"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Diogo Dalot"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number9"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 20"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Luke Shaw"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number10"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 23"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Aaron Wan-Bissaka"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number11"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 29"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Jonny Evans"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number12"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 35"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/df10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Sergio Reguilón"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number13"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 15"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="35dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/alatsi"
+                    android:text="Midfielders"
+                    android:textColor="#000000"
+                    android:textSize="70sp" />
+
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Bruno Fernandes"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number14"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 8"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Christian Eriksen"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number15"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 14"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Casemiro"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number16"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 18"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Facundo Pellistri"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number17"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 28"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Donny van de Beek"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number18"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 34"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Scott McTominay"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number19"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 39"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Hannibal Mejbri"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number20"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 19"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Kobbie Mainoo"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number21"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 37"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Mason Mount"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number22"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 7"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm11" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Daniel Gore"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number23"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 44"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/cm12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Sofyan Amrabat"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number24"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 4"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="35dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/alatsi"
+                    android:text="Forwards"
+                    android:textColor="#000000"
+                    android:textSize="70sp" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/at1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Anthony Martial"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number25"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 9"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/at2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Marcus Rashford"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number26"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/at3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Antony"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number27"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 21"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/at4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Jadon
+Sancho"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number28"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 25"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/at5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Alejandro Garnacho"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number29"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 17"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/at6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Amad Diallo"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number30"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 16"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/at7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Shola Shoretire"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number31"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 47"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView35"
+                    android:layout_width="199dp"
+                    android:layout_height="191dp"
+                    app:srcCompat="@drawable/at8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Rasmus Højlund"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/number32"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/myImageView1"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Number: 11"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/alatsi"
+        android:text="     MAN UTD PLAYES "
+        android:textColor="#FFFFFF"
+        android:textSize="47dp" />
+
+</RelativeLayout>
